@@ -1,0 +1,1843 @@
+<!--symbol-->
+<div>
+  <img src="../assets/image/symbol.svg" style="margin-left: 4px" />
+</div>
+<br />
+<!--lefticon-->
+<div
+  style="display: grid; grid-row-gap: 25px; margin-left: 15px; margin-top: 12px"
+>
+  <mat-icon>pie_chart_outline</mat-icon>
+  <mat-icon>work_outline</mat-icon>
+  <mat-icon>group_outline</mat-icon>
+  <mat-divider style="width: 40px; margin-left: -6px"></mat-divider>
+  <mat-icon style="margin-top: 20px">event_outline</mat-icon>
+  <mat-icon>approval_outline</mat-icon>
+  <mat-icon>printer_outline</mat-icon>
+  <mat-icon>insights_outline</mat-icon>
+  <mat-icon>equalizer_outline</mat-icon>
+</div>
+<mat-divider class="leftnav"></mat-divider>
+<p style="margin-top: -55%; margin-left: 49px">
+  <img src="../assets/image/Ellipse 4.svg" />
+  <img
+    src="../assets/image/chevron-left.svg"
+    style="margin-left: -20px; margin-bottom: 4px"
+  />
+</p>
+
+<!--topicon-->
+<div style="margin-top: -51px; margin-left: 1157px">
+  <mat-icon class="topsearch">search</mat-icon>
+  <mat-icon class="topmail">mail_outline</mat-icon>
+  <mat-icon class="topnotifi">notifications_outline</mat-icon>
+  <mat-icon class="topcircle">circle</mat-icon>
+  <img src="../assets/image/pic.svg" style="margin-bottom: -5px" />
+  <p class="toptext">Maxbert</p>
+  <mat-icon class="toparrow">arrow_drop_down</mat-icon>
+</div>
+<mat-divider
+  style="margin-top: -15px; width: 96%; margin-left: 60px"
+></mat-divider>
+
+<!--top_heading-->
+<p
+  style="
+    font-weight: 600;
+    font-size: 36px;
+    color: #25364d;
+    margin-left: 96px;
+    margin-top: 44px;
+  "
+>
+  Add Candidate Manually
+</p>
+<mat-divider
+  style="width: 93%; margin-left: 94px; margin-top: 45px"
+></mat-divider>
+
+<!--midlist-->
+<div class="left-details-box">
+  <p style="color: blue">
+    <img
+      src="../assets/image/Property 1=Large.png"
+      style="margin-bottom: -14px"
+    />
+    &nbsp;&nbsp; Personal Deatils
+  </p>
+  <mat-divider></mat-divider>
+
+  <p>
+    <img
+      src="../assets/image/Property 1=Large (1).png"
+      style="margin-bottom: -14px; margin-top: 7px"
+    />
+    &nbsp;&nbsp; Language
+  </p>
+  <mat-divider></mat-divider>
+
+  <p>
+    <img
+      src="../assets/image/Property 1=Large (2).png"
+      style="margin-bottom: -14px; margin-top: 7px"
+    />
+    &nbsp;&nbsp; Education
+  </p>
+  <mat-divider></mat-divider>
+
+  <p>
+    <img
+      src="../assets/image/Property 1=Large (3).png"
+      style="margin-bottom: -14px; margin-top: 7px"
+    />
+    &nbsp;&nbsp; Projects
+  </p>
+  <mat-divider></mat-divider>
+
+  <p>
+    <img
+      src="../assets/image/Property 1=Large (4).png"
+      style="margin-bottom: -14px; margin-top: 7px"
+    />
+    &nbsp;&nbsp; Experience
+  </p>
+  <mat-divider></mat-divider>
+
+  <p>
+    <img
+      src="../assets/image/Property 1=Large (5).png"
+      style="margin-bottom: -14px; margin-top: 7px"
+    />
+    &nbsp;&nbsp; Salary Details
+  </p>
+  <mat-divider></mat-divider>
+
+  <p>
+    <img
+      src="../assets/image/Property 1=Large (6).png"
+      style="margin-bottom: -14px; margin-top: 7px"
+    />
+    &nbsp;&nbsp; Skills
+  </p>
+  <mat-divider></mat-divider>
+
+  <p>
+    <img
+      src="../assets/image/Property 1=Large (7).png"
+      style="margin-bottom: -14px; margin-top: 7px"
+    />
+    &nbsp;&nbsp; Certificates
+  </p>
+</div>
+
+<!--form-->
+<div>
+  <mat-card
+    style="
+      width: 1080px;
+      height: 1693px;
+      margin-left: 374px;
+      margin-top: -518px;
+    "
+  >
+    <mat-icon color="accent">person</mat-icon>
+    <p id="midname">Personal Details</p>
+    <p style="margin-left: 8px; margin-top: 14px">
+      <img
+        src="../assets/image/Userr.png"
+        style="width: 100px; height: 100px"
+      />
+    </p>
+    <img
+      src="../assets/image/Group.svg"
+      style="margin-left: 82px; margin-bottom: 135px; margin-top: -40px"
+    />
+
+    <!--firstname-->
+    <div style="margin-top: -116px; margin-left: 24px">
+      <label style="font-weight: 500; color: #504f54">First Name</label><br />
+      <mat-form-field
+        appearance="outline"
+        style="width: 97px; color: #dad3fe; margin-top: 4px"
+      >
+        <mat-select>
+          <mat-option *ngFor="let state of name" [value]="state">{{
+            state
+          }}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <p style="margin-top: -78px; margin-left: 105px; color: black">
+        <mat-form-field
+          floatLabel="auto"
+          appearance="outline"
+          hideRequiredMarker
+          color="black"
+          style="width: 225px"
+        >
+          <input matInput placeholder="First Name" required />
+        </mat-form-field>
+      </p>
+      <div style="margin-top: -110px; margin-left: 358px">
+        <label style="font-weight: 500; color: #504f54">Middle Name</label
+        ><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="Middle Name" required />
+          </mat-form-field>
+        </p>
+      </div>
+      <div style="margin-top: -113px; margin-left: 715px">
+        <label style="font-weight: 500; color: #504f54">Last Name</label><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="Last Name" required />
+          </mat-form-field>
+        </p>
+      </div>
+    </div>
+    <!--email-->
+    <div>
+      <div style="margin-left: 24px; margin-top: -14px">
+        <label style="font-weight: 500; color: #504f54">Email Address</label
+        ><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="Email" required />
+          </mat-form-field>
+        </p>
+      </div>
+      <div style="margin-top: -111px; margin-left: 379px">
+        <label style="font-weight: 500; color: #504f54">Phone</label><br />
+        <mat-form-field
+          floatLabel="auto"
+          appearance="outline"
+          hideRequiredMarker
+          color="black"
+          style="width: 104px; margin-top: 4px"
+        >
+          <input matInput required />
+        </mat-form-field>
+        <div style="display: flex; margin-top: -57px; margin-left: 7px">
+          <p>
+            <img
+              src="../assets/image/flag.png"
+              style="margin-bottom: -4px; margin-left: 5px"
+            />
+          </p>
+          <p style="margin-left: 5px; font-weight: 600; color: #25364d">+ 91</p>
+          <p>
+            <img
+              src="../assets/image/arrow_down.svg"
+              style="
+                margin-bottom: -9px;
+                width: 27px;
+                margin-top: -6px;
+                margin-left: 1px;
+              "
+            />
+          </p>
+        </div>
+        <p style="margin-top: -53px; margin-left: 122px">
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 208px"
+          >
+            <input matInput placeholder="Primary Phone no." required />
+          </mat-form-field>
+        </p>
+      </div>
+      <div style="margin-top: -113px; margin-left: 738px">
+        <label style="font-weight: 500; color: #504f54">Phone</label><br />
+        <mat-form-field
+          floatLabel="auto"
+          appearance="outline"
+          hideRequiredMarker
+          color="black"
+          style="width: 104px; margin-top: 4px"
+        >
+          <input matInput required />
+        </mat-form-field>
+        <div style="display: flex; margin-top: -57px; margin-left: 7px">
+          <p>
+            <img
+              src="../assets/image/flag.png"
+              style="margin-bottom: -4px; margin-left: 5px"
+            />
+          </p>
+          <p style="margin-left: 5px; font-weight: 600; color: #25364d">+ 91</p>
+          <p>
+            <img
+              src="../assets/image/arrow_down.svg"
+              style="
+                margin-bottom: -9px;
+                width: 27px;
+                margin-top: -6px;
+                margin-left: 1px;
+              "
+            />
+          </p>
+        </div>
+        <p style="margin-top: -53px; margin-left: 122px">
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 208px"
+          >
+            <input matInput placeholder="Secondary Phone no." required />
+          </mat-form-field>
+        </p>
+      </div>
+    </div>
+    <!--Gender-->
+    <div style="margin-left: 24px; margin-top: -14px">
+      <label style="font-weight: 500; color: #504f54">Gender</label><br />
+      <div style="margin-top: 25px">
+        <mat-radio-group
+          aria-label="Select an option"
+          style="color: #84818a; font-weight: 500"
+        >
+          <mat-radio-button value="1">Male</mat-radio-button>
+          <mat-radio-button value="2" style="margin-left: 12px"
+            >Female</mat-radio-button
+          >
+          <mat-radio-button value="3" style="margin-left: 12px"
+            >Other</mat-radio-button
+          >
+        </mat-radio-group>
+      </div>
+      <div style="margin-left: 359px; margin-top: -64px">
+        <label style="font-weight: 500; color: #504f54">Date of Birth</label
+        ><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="dd-mm-yyy" required />
+          </mat-form-field>
+        </p>
+      </div>
+      <div style="margin-top: -113px; margin-left: 718px">
+        <label style="font-weight: 500; color: #504f54">Age</label><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <mat-select>
+              <mat-option *ngFor="let state of age" [value]="state">{{
+                state
+              }}</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </p>
+      </div>
+    </div>
+    <!--Address-->
+    <div style="margin-left: 24px; margin-top: -14px">
+      <label style="font-weight: 500; color: #504f54">Address</label><br />
+      <!--<p>
+        <mat-form-field class="text" floatLabel="auto"  appearance="outline" hideRequiredMarker  style=" width: 1008px; height: 128px; margin-top: 4px;" >
+          <input matInput placeholder="Address here...." required>
+        </mat-form-field>
+      </p>-->
+      <input
+        type="text"
+        name="Address"
+        class="inputbox"
+        style="width: 1050px; height: 128px; margin-left: -5px; margin-top: 8px"
+      />
+      <p
+        class="fromemail"
+        style="font-weight: 500; margin-top: -114px; color: #84818a"
+      >
+        Address here...
+      </p>
+    </div>
+    <!--Industry-->
+    <div style="margin-left: 24px; margin-top: 181px">
+      <div style="margin-top: -61px">
+        <label style="font-weight: 500; color: #504f54">Industry</label><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="Industry" required />
+          </mat-form-field>
+        </p>
+      </div>
+      <div style="margin-left: 359px; margin-top: -115px">
+        <label style="font-weight: 500; color: #504f54">Functional Area</label
+        ><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="Functional Area" required />
+          </mat-form-field>
+        </p>
+      </div>
+      <div style="margin-top: -113px; margin-left: 718px">
+        <label style="font-weight: 500; color: #504f54"
+          >Current Organization</label
+        ><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="Current Organization" required />
+          </mat-form-field>
+        </p>
+      </div>
+    </div>
+    <!--Current Designation-->
+    <div style="margin-left: 24px; margin-top: 72px">
+      <div style="margin-top: -61px">
+        <label style="font-weight: 500; color: #504f54"
+          >Current Designation</label
+        ><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="Current Designation" required />
+          </mat-form-field>
+        </p>
+      </div>
+      <div style="margin-left: 359px; margin-top: -115px">
+        <label style="font-weight: 500; color: #504f54"
+          >Preferred Location</label
+        ><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="Preferred Location" required />
+          </mat-form-field>
+        </p>
+      </div>
+      <div style="margin-top: -113px; margin-left: 718px">
+        <label style="font-weight: 500; color: #504f54">Current Location</label
+        ><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="Current Location" required />
+          </mat-form-field>
+        </p>
+      </div>
+    </div>
+    <!--Nationality-->
+    <div style="margin-left: 24px; margin-top: 72px">
+      <div style="margin-top: -61px">
+        <label style="font-weight: 500; color: #504f54">Nationality</label
+        ><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="Nationality" required />
+          </mat-form-field>
+        </p>
+      </div>
+      <div style="margin-left: 359px; margin-top: -115px">
+        <label style="font-weight: 500; color: #504f54">Notice Period</label
+        ><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="Value" required />
+          </mat-form-field>
+        </p>
+      </div>
+      <div style="margin-top: -113px; margin-left: 718px">
+        <label style="font-weight: 500; color: #504f54">Relocate</label><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <!--<input matInput placeholder="yes"  required>-->
+            <mat-select>
+              <mat-option *ngFor="let state of Relocate" [value]="state">{{
+                state
+              }}</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </p>
+      </div>
+    </div>
+
+    <!--Maritial Status-->
+    <div style="margin-left: 24px; margin-top: 72px">
+      <div style="margin-top: -61px">
+        <label style="font-weight: 500; color: #504f54">Maritial Status</label
+        ><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="Status" required />
+          </mat-form-field>
+        </p>
+      </div>
+      <div style="margin-left: 359px; margin-top: -115px">
+        <label style="font-weight: 500; color: #504f54">Source</label><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="Source" required />
+          </mat-form-field>
+        </p>
+      </div>
+      <div style="margin-top: -113px; margin-left: 718px">
+        <label style="font-weight: 500; color: #504f54">Upload Resume</label
+        ><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="word file,dox,pdf" required />
+          </mat-form-field>
+          <img
+            src="../assets/image/Uploadd.png"
+            style="
+              margin-bottom: -16px;
+              margin-left: -56px;
+              width: 55px;
+              height: 49px;
+            "
+          />
+        </p>
+      </div>
+    </div>
+    <!--video-->
+    <div style="margin-left: 24px; margin-top: 59px">
+      <div style="margin-top: -61px">
+        <label style="font-weight: 500; color: #504f54">Video Resume</label
+        ><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 1041px; margin-top: 4px"
+          >
+            <input
+              matInput
+              placeholder="Paste link to the video resume"
+              required
+            />
+          </mat-form-field>
+        </p>
+      </div>
+    </div>
+    <!--Work Autorization-->
+    <div style="margin-left: 24px; margin-top: 59px">
+      <div style="margin-top: -61px">
+        <label style="font-weight: 500; color: #504f54">Work Autorization</label
+        ><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 1041px; margin-top: 4px"
+          >
+            <input matInput required />
+          </mat-form-field>
+        </p>
+      </div>
+      <div class="info_textt" style="margin-left: -16pc; margin-top: -70px">
+        <button mat-stroked-button id="ex_btn" style="margin-left: 75px">
+          <p>Example Tag 1 X</p>
+        </button>
+        <button mat-stroked-button id="ex_btn" style="margin-left: -23pc">
+          <p>Example Tag 2 X</p>
+        </button>
+        <button mat-stroked-button id="ex_btn" style="margin-left: -23pc">
+          <p>Example Tag 3 X</p>
+        </button>
+      </div>
+    </div>
+    <!--pan-card-->
+    <div style="margin-left: 24px; margin-top: 94px">
+      <div style="margin-top: -61px">
+        <label style="font-weight: 500; color: #504f54">PAN Number</label><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="eg PAN 12345" required />
+          </mat-form-field>
+        </p>
+      </div>
+      <div style="margin-left: 359px; margin-top: -115px">
+        <label style="font-weight: 500; color: #504f54">Aadhar Number</label
+        ><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input
+              matInput
+              placeholder="eg 1111 - 2222 - 3333 - 4444"
+              required
+            />
+          </mat-form-field>
+        </p>
+      </div>
+      <div style="margin-top: -113px; margin-left: 718px">
+        <label style="font-weight: 500; color: #504f54">Passport Number</label
+        ><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="eg PAS 987654 - 45876 " required />
+          </mat-form-field>
+        </p>
+      </div>
+    </div>
+    <!--LinkedIn-->
+    <div style="margin-left: 24px; margin-top: 59px">
+      <div style="margin-top: -61px">
+        <label style="font-weight: 500; color: #504f54">LinkedIn</label><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 1041px; margin-top: 4px"
+          >
+            <input matInput placeholder="Paste profile link here" required />
+          </mat-form-field>
+          <mat-icon class="iconbox">link</mat-icon>
+        </p>
+      </div>
+    </div>
+    <!--Facebook-->
+    <div style="margin-left: 24px; margin-top: 42px">
+      <div style="margin-top: -61px">
+        <label style="font-weight: 500; color: #504f54">Facebook</label><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 1041px; margin-top: 4px"
+          >
+            <input matInput placeholder="Paste profile link here" required />
+          </mat-form-field>
+          <mat-icon class="iconbox">link</mat-icon>
+        </p>
+      </div>
+    </div>
+    <!--Tweeter-->
+    <div style="margin-left: 24px; margin-top: 42px">
+      <div style="margin-top: -61px">
+        <label style="font-weight: 500; color: #504f54">Tweeter</label><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 1041px; margin-top: 4px"
+          >
+            <input matInput placeholder="Paste profile link here" required />
+          </mat-form-field>
+          <mat-icon class="iconbox">link</mat-icon>
+        </p>
+      </div>
+    </div>
+  </mat-card>
+</div>
+
+<!--Language-->
+<div>
+  <mat-card
+    style="width: 1080px; height: 316px; margin-left: 374px; margin-top: 34px"
+  >
+    <mat-icon color="accent" style="margin-left: 14px; margin-bottom: -1px"
+      >language</mat-icon
+    >
+    <p id="midname" style="margin-left: 46px">
+      Language
+      <button mat-button style="color: #00a46c; margin-left: 778px">
+        + Add Language
+      </button>
+    </p>
+
+    <!--LANGUAGE-->
+    <div style="margin-left: 24px; margin-top: 59px">
+      <div style="margin-top: -29px">
+        <label style="font-weight: 500; color: #504f54">Select Language</label
+        ><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 1041px; margin-top: 4px"
+          >
+            <input matInput type="none" required />
+          </mat-form-field>
+        </p>
+        <p
+          style="
+            font-weight: 500;
+            color: #84818a;
+            margin-top: -70px;
+            margin-left: 24px;
+          "
+        >
+          Language
+        </p>
+        <div style="margin-top: -34px; margin-left: 251px">
+          <mat-checkbox class="example-margin">Read</mat-checkbox>
+          <mat-checkbox class="example-margin">Write</mat-checkbox>
+          <mat-checkbox class="example-margin">Speak</mat-checkbox>
+        </div>
+        <p
+          style="
+            font-weight: 500;
+            color: #84818a;
+            margin-top: -22px;
+            margin-left: 843px;
+          "
+        >
+          Proficiency
+        </p>
+      </div>
+      <!--englishbox-->
+      <div>
+        <mat-form-field
+          appearance="outline"
+          style="
+            width: 240px;
+            color: #dad3fe;
+            margin-top: 12px;
+            margin-left: 23px;
+          "
+        >
+          <mat-select>
+            <mat-option *ngFor="let state of languages" [value]="state">{{
+              state
+            }}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+      <div style="margin-top: -55px; margin-left: 251px">
+        <mat-checkbox class="example-margin">&nbsp;</mat-checkbox>
+        <mat-checkbox class="example-margin" style="margin-left: 131px"
+          >&nbsp;</mat-checkbox
+        >
+        <mat-checkbox class="example-margin" style="margin-left: 131px"
+          >&nbsp;</mat-checkbox
+        >
+      </div>
+      <div style="margin-top: -59px; margin-left: 832px">
+        <mat-form-field
+          appearance="outline"
+          style="
+            width: 152px;
+            color: #dad3fe;
+            margin-top: 12px;
+            margin-left: 23px;
+          "
+        >
+          <mat-select>
+            <mat-option *ngFor="let state of spaking" [value]="state">{{
+              state
+            }}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+      <mat-divider style="margin-top: -12px"></mat-divider>
+      <!--Portugese-->
+      <div>
+        <mat-form-field
+          appearance="outline"
+          style="
+            width: 240px;
+            color: #dad3fe;
+            margin-top: 12px;
+            margin-left: 23px;
+          "
+        >
+          <mat-select>
+            <mat-option *ngFor="let state of languagess" [value]="state">{{
+              state
+            }}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+      <div style="margin-top: -55px; margin-left: 251px">
+        <mat-checkbox class="example-margin">&nbsp;</mat-checkbox>
+        <mat-checkbox class="example-margin" style="margin-left: 131px"
+          >&nbsp;</mat-checkbox
+        >
+        <mat-checkbox class="example-margin" style="margin-left: 131px"
+          >&nbsp;</mat-checkbox
+        >
+      </div>
+      <div style="margin-top: -59px; margin-left: 832px">
+        <mat-form-field
+          appearance="outline"
+          style="
+            width: 152px;
+            color: #dad3fe;
+            margin-top: 12px;
+            margin-left: 23px;
+          "
+        >
+          <mat-select>
+            <mat-option *ngFor="let state of spaking" [value]="state">{{
+              state
+            }}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+      <mat-divider style="margin-top: -12px"></mat-divider>
+    </div>
+  </mat-card>
+</div>
+
+<!--Education-->
+<div>
+  <mat-card
+    style="width: 1080px; height: 807px; margin-left: 374px; margin-top: 34px"
+  >
+    <mat-icon color="accent" style="margin-left: 14px; margin-bottom: -1px"
+      >book</mat-icon
+    >
+    <p id="midname" style="margin-left: 46px">
+      Education
+      <button mat-button style="color: #00a46c; margin-left: 778px">
+        + Add Education
+      </button>
+    </p>
+    <!--education_deatils-->
+    <div>
+      <p
+        style="
+          font-size: 18px;
+          color: #25364d;
+          margin-top: 32px;
+          margin-left: 14px;
+        "
+      >
+        Bachelor’s Degree In Computer Engineering at GCELT
+      </p>
+      <div style="margin-top: -30px; margin-left: 963px">
+        <mat-icon style="font-size: 25px; color: #84818a">edit</mat-icon>
+        <mat-icon style="font-size: 25px; color: #ff715a; margin-left: 29px"
+          >delete</mat-icon
+        >
+      </div>
+      <p
+        style="
+          font-weight: 500;
+          color: #84818a;
+          margin-top: -5px;
+          margin-left: 10px;
+        "
+      >
+        <mat-icon style="font-size: 25px; color: #ffae1f; margin-bottom: -5px"
+          >event</mat-icon
+        >
+        January 2019 to August 2021
+      </p>
+      <mat-divider style="margin-top: 26px"></mat-divider>
+      <p
+        style="
+          font-size: 18px;
+          color: #25364d;
+          margin-top: 24px;
+          margin-left: 14px;
+        "
+      >
+        Higher Secondary at Bholananda National Vidyalaya
+      </p>
+      <div style="margin-top: -30px; margin-left: 963px">
+        <mat-icon style="font-size: 25px; color: #84818a">edit</mat-icon>
+        <mat-icon style="font-size: 25px; color: #ff715a; margin-left: 29px"
+          >delete</mat-icon
+        >
+      </div>
+      <p
+        style="
+          font-weight: 500;
+          color: #84818a;
+          margin-top: -5px;
+          margin-left: 10px;
+        "
+      >
+        <mat-icon style="font-size: 25px; color: #ffae1f; margin-bottom: -5px"
+          >event</mat-icon
+        >
+        January 2019 to August 2021
+      </p>
+      <mat-divider style="margin-top: 26px"></mat-divider>
+    </div>
+    <!--education add-->
+    <div>
+      <p id="ed_text">Add Education</p>
+      <mat-divider id="ed_line"></mat-divider>
+    </div>
+    <!--degree-->
+    <div style="margin-left: 24px; margin-top: 85px">
+      <div style="margin-top: -61px">
+        <label style="font-weight: 500; color: #504f54">Degree</label><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="eg Bahcelor’s Degree" required />
+          </mat-form-field>
+        </p>
+      </div>
+      <div style="margin-left: 359px; margin-top: -115px">
+        <label style="font-weight: 500; color: #504f54"
+          >School/Institution</label
+        ><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input
+              matInput
+              placeholder="enter School/Institution name"
+              required
+            />
+          </mat-form-field>
+        </p>
+      </div>
+      <div style="margin-top: -113px; margin-left: 718px">
+        <label style="font-weight: 500; color: #504f54">University</label><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="enter university name" required />
+          </mat-form-field>
+        </p>
+      </div>
+    </div>
+    <!--Percentage/CGPA-->
+    <div style="margin-left: 24px; margin-top: 72px">
+      <div style="margin-top: -61px">
+        <label style="font-weight: 500; color: #504f54">From</label><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="mm-yyy" required />
+          </mat-form-field>
+        </p>
+      </div>
+      <div style="margin-left: 359px; margin-top: -115px">
+        <label style="font-weight: 500; color: #504f54">To</label><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="dd-yyy" required />
+          </mat-form-field>
+        </p>
+      </div>
+      <div style="margin-top: -113px; margin-left: 718px">
+        <label style="font-weight: 500; color: #504f54">Percentage/CGPA</label
+        ><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="eg 7.2" required />
+          </mat-form-field>
+        </p>
+      </div>
+      <p style="margin-top: -27px; margin-left: 277px">
+        <mat-checkbox class="example-margin">Currently Persuing</mat-checkbox>
+      </p>
+    </div>
+    <!--Location-->
+    <div style="margin-left: 24px; margin-top: 85px">
+      <div style="margin-top: -61px">
+        <label style="font-weight: 500; color: #504f54">Location</label><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="eg India, Kolkata" required />
+          </mat-form-field>
+        </p>
+      </div>
+    </div>
+    <!--button-->
+    <div style="margin-top: 38px; margin-left: 841px">
+      <button mat-stroked-button>Cancel</button>
+      <button
+        mat-stroked-button
+        color="accent"
+        style="margin-left: 24px; border: 1px solid blue"
+      >
+        Add Education
+      </button>
+    </div>
+  </mat-card>
+</div>
+
+<!--Projects-->
+<div>
+  <mat-card
+    style="width: 1080px; height: 851px; margin-left: 374px; margin-top: 34px"
+  >
+    <mat-icon color="accent" style="margin-left: 14px; margin-bottom: -1px"
+      >build</mat-icon
+    >
+    <p id="midname" style="margin-left: 46px">
+      Projects
+      <button mat-button style="color: #00a46c; margin-left: 778px">
+        + Add project
+      </button>
+    </p>
+    <!--project_deatils-->
+    <div>
+      <p
+        style="
+          font-size: 18px;
+          color: #25364d;
+          margin-top: 32px;
+          margin-left: 14px;
+        "
+      >
+        Dummy Project Name 1
+      </p>
+      <div style="margin-top: -30px; margin-left: 963px">
+        <mat-icon style="font-size: 25px; color: #84818a">edit</mat-icon>
+        <mat-icon style="font-size: 25px; color: #ff715a; margin-left: 29px"
+          >delete</mat-icon
+        >
+      </div>
+      <p
+        style="
+          font-weight: 500;
+          color: #84818a;
+          margin-top: -5px;
+          margin-left: 10px;
+        "
+      >
+        <mat-icon style="font-size: 25px; color: #ffae1f; margin-bottom: -5px"
+          >event</mat-icon
+        >
+        January 2019 to August 2021
+      </p>
+      <mat-divider style="margin-top: 26px"></mat-divider>
+      <p
+        style="
+          font-size: 18px;
+          color: #25364d;
+          margin-top: 24px;
+          margin-left: 14px;
+        "
+      >
+        Dummy Project Name 2
+      </p>
+      <div style="margin-top: -30px; margin-left: 963px">
+        <mat-icon style="font-size: 25px; color: #84818a">edit</mat-icon>
+        <mat-icon style="font-size: 25px; color: #ff715a; margin-left: 29px"
+          >delete</mat-icon
+        >
+      </div>
+      <p
+        style="
+          font-weight: 500;
+          color: #84818a;
+          margin-top: -5px;
+          margin-left: 10px;
+        "
+      >
+        <mat-icon style="font-size: 25px; color: #ffae1f; margin-bottom: -5px"
+          >event</mat-icon
+        >
+        January 2019 to August 2021
+      </p>
+      <mat-divider style="margin-top: 26px"></mat-divider>
+    </div>
+    <!--project add-->
+    <div>
+      <p id="ed_text">Add Project</p>
+      <mat-divider id="ed_line" style="width: 108px"></mat-divider>
+    </div>
+    <!--Project Name-->
+    <div style="margin-left: 24px; margin-top: 59px">
+      <div style="margin-top: -37px">
+        <label style="font-weight: 500; color: #504f54">Project Name</label
+        ><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 1041px; margin-top: 4px"
+          >
+            <input matInput placeholder="eg. Bahcelor’s Degree" required />
+          </mat-form-field>
+        </p>
+      </div>
+    </div>
+    <!--Project Descripiton-->
+    <div style="margin-left: 24px; margin-top: -18px">
+      <label style="font-weight: 500; color: #504f54">Project Descripiton</label
+      ><br />
+      <!-- <p>
+      <mat-form-field class="text" floatLabel="auto"  appearance="outline" hideRequiredMarker  style=" width: 1008px; height: 128px; margin-top: 4px;" >
+        <input matInput placeholder="Address here...." required>
+      </mat-form-field>
+     </p>-->
+      <input
+        type="text"
+        name="Address"
+        class="inputbox"
+        style="width: 1050px; height: 128px; margin-left: -5px; margin-top: 8px"
+      />
+      <p
+        class="fromemail"
+        style="font-weight: 500; margin-top: -114px; color: #84818a"
+      >
+        Address here...
+      </p>
+    </div>
+    <!--date-->
+    <div style="margin-left: 24px; margin-top: 72px">
+      <div style="margin-top: 117px">
+        <label style="font-weight: 500; color: #504f54">From</label><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="mm-yyy" required />
+          </mat-form-field>
+        </p>
+      </div>
+      <div style="margin-left: 359px; margin-top: -115px">
+        <label style="font-weight: 500; color: #504f54">To</label><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="dd-yyy" required />
+          </mat-form-field>
+        </p>
+      </div>
+      <div style="margin-top: -113px; margin-left: 718px">
+        <label style="font-weight: 500; color: #504f54">Location</label><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="eg India, Kolkata" required />
+          </mat-form-field>
+        </p>
+      </div>
+    </div>
+    <!--button-->
+    <div style="margin-top: 38px; margin-left: 858px">
+      <button mat-stroked-button>Cancel</button>
+      <button
+        mat-stroked-button
+        color="accent"
+        style="margin-left: 24px; border: 1px solid blue"
+      >
+        Add Project
+      </button>
+    </div>
+  </mat-card>
+</div>
+
+<!--Experience-->
+<div>
+  <mat-card
+    style="width: 1080px; height: 851px; margin-left: 374px; margin-top: 34px"
+  >
+    <mat-icon color="accent" style="margin-left: 14px; margin-bottom: -1px"
+      >build</mat-icon
+    >
+    <p id="midname" style="margin-left: 46px">
+      Experience
+      <button mat-button style="color: #00a46c; margin-left: 752px">
+        + Add Experience
+      </button>
+    </p>
+    <!--Experience_deatils-->
+    <div>
+      <p
+        style="
+          font-size: 18px;
+          color: #25364d;
+          margin-top: 32px;
+          margin-left: 14px;
+        "
+      >
+        Software Engineer at Tata Consultancy Services
+      </p>
+      <div style="margin-top: -30px; margin-left: 963px">
+        <mat-icon style="font-size: 25px; color: #84818a">edit</mat-icon>
+        <mat-icon style="font-size: 25px; color: #ff715a; margin-left: 29px"
+          >delete</mat-icon
+        >
+      </div>
+      <p
+        style="
+          font-weight: 500;
+          color: #84818a;
+          margin-top: -5px;
+          margin-left: 10px;
+        "
+      >
+        <mat-icon style="font-size: 25px; color: #ffae1f; margin-bottom: -5px"
+          >event</mat-icon
+        >
+        January 2019 to August 2021 (3 years and 2 months)
+      </p>
+      <mat-divider style="margin-top: 26px"></mat-divider>
+      <p
+        style="
+          font-size: 18px;
+          color: #25364d;
+          margin-top: 24px;
+          margin-left: 14px;
+        "
+      >
+        Software Engineer at Tata Consultancy Services
+      </p>
+      <div style="margin-top: -30px; margin-left: 963px">
+        <mat-icon style="font-size: 25px; color: #84818a">edit</mat-icon>
+        <mat-icon style="font-size: 25px; color: #ff715a; margin-left: 29px"
+          >delete</mat-icon
+        >
+      </div>
+      <p
+        style="
+          font-weight: 500;
+          color: #84818a;
+          margin-top: -5px;
+          margin-left: 10px;
+        "
+      >
+        <mat-icon style="font-size: 25px; color: #ffae1f; margin-bottom: -5px"
+          >event</mat-icon
+        >
+        January 2019 to August 2021 (3 years and 2 months)
+      </p>
+      <mat-divider style="margin-top: 26px"></mat-divider>
+    </div>
+    <!--Experience add-->
+    <div>
+      <p id="ed_text">Add Experience</p>
+      <mat-divider id="ed_line" style="width: 141px"></mat-divider>
+    </div>
+    <!--Experience job title-->
+    <div style="margin-left: 24px; margin-top: 85px">
+      <div style="margin-top: -61px">
+        <label style="font-weight: 500; color: #504f54">Job Title</label><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 654px; margin-top: 4px"
+          >
+            <input matInput placeholder="Junior UI/UX Designer" required />
+          </mat-form-field>
+        </p>
+      </div>
+      <div style="margin-top: -114px; margin-left: 690px">
+        <label style="font-weight: 500; color: #504f54"
+          >Company/Business name</label
+        ><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 341px; margin-top: 4px"
+          >
+            <input matInput placeholder="Tata Consultancy Services" required />
+          </mat-form-field>
+        </p>
+      </div>
+    </div>
+    <!--Location Experience-->
+    <div style="margin-left: 24px; margin-top: -10px">
+      <div>
+        <label style="font-weight: 500; color: #504f54">Location</label><br />
+        <mat-form-field
+          appearance="outline"
+          style="
+            width: 303px;
+            color: #dad3fe;
+            margin-top: 5px;
+            margin-left: 0px;
+          "
+        >
+          <mat-select>
+            <mat-option *ngFor="let Location of Locations" [value]="Location">{{
+              Location
+            }}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+      <div style="margin-left: 339px; margin-top: -101px">
+        <label style="font-weight: 500; color: #504f54">From</label><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="dd-mm-yyy" required />
+          </mat-form-field>
+        </p>
+      </div>
+      <div style="margin-top: -113px; margin-left: 697px">
+        <label style="font-weight: 500; color: #504f54">To</label><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="dd-mm-yyyy" required />
+          </mat-form-field>
+        </p>
+      </div>
+    </div>
+    <!--Description-->
+    <div style="margin-left: 24px; margin-top: -18px">
+      <label style="font-weight: 500; color: #504f54">Project Descripiton</label
+      ><br />
+      <!-- <p>
+       <mat-form-field class="text" floatLabel="auto"  appearance="outline" hideRequiredMarker  style=" width: 1008px; height: 128px; margin-top: 4px;" >
+         <input matInput placeholder="Address here...." required>
+       </mat-form-field>
+      </p>-->
+      <input
+        type="text"
+        name="Address"
+        class="inputbox"
+        style="width: 1050px; height: 128px; margin-left: -5px; margin-top: 8px"
+      />
+      <p
+        class="fromemail"
+        style="font-weight: 500; margin-top: -114px; color: #84818a"
+      >
+        Write Description here...
+      </p>
+    </div>
+    <!--button-->
+    <div style="margin-top: 163px; margin-left: 824px">
+      <button mat-stroked-button>Cancel</button>
+      <button
+        mat-stroked-button
+        color="accent"
+        style="margin-left: 24px; border: 1px solid blue"
+      >
+        Add Experience
+      </button>
+    </div>
+  </mat-card>
+</div>
+
+<!--Salary Details-->
+<div>
+  <mat-card
+    style="width: 1080px; height: 389px; margin-left: 374px; margin-top: 34px"
+  >
+    <mat-icon color="accent" style="margin-left: 14px; margin-bottom: -1px"
+      >attach_money</mat-icon
+    >
+    <p id="midname" style="margin-left: 46px">Salary Details</p>
+    <!--Salarybox1-->
+    <div style="margin-left: 24px; margin-top: 24px">
+      <div>
+        <label style="font-weight: 500; color: #504f54">Location</label><br />
+        <mat-form-field
+          appearance="outline"
+          style="
+            width: 303px;
+            color: #dad3fe;
+            margin-top: 5px;
+            margin-left: 0px;
+          "
+        >
+          <mat-select>
+            <mat-option *ngFor="let Salary of Salarys" [value]="Salary">{{
+              Salary
+            }}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+      <div style="margin-left: 339px; margin-top: -101px">
+        <br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="Value" required />
+          </mat-form-field>
+        </p>
+      </div>
+      <div style="margin-top: -113px; margin-left: 697px">
+        <br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="Period" required />
+          </mat-form-field>
+        </p>
+      </div>
+    </div>
+    <!--Salarybox2-->
+    <div style="margin-left: 24px; margin-top: -10px">
+      <div>
+        <label style="font-weight: 500; color: #504f54">Fixed Salary</label
+        ><br />
+        <mat-form-field
+          appearance="outline"
+          style="
+            width: 303px;
+            color: #dad3fe;
+            margin-top: 5px;
+            margin-left: 0px;
+          "
+        >
+          <input matInput placeholder="Fixed Salary" required />
+        </mat-form-field>
+      </div>
+      <div style="margin-left: 339px; margin-top: -101px">
+        <label style="font-weight: 500; color: #504f54">Variable Salary</label
+        ><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="Variable Salary" required />
+          </mat-form-field>
+        </p>
+      </div>
+      <div style="margin-top: -113px; margin-left: 697px">
+        <label style="font-weight: 500; color: #504f54">Other Salary</label
+        ><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="Other Salary" required />
+          </mat-form-field>
+        </p>
+      </div>
+    </div>
+    <!--Salarybox3-->
+    <div style="margin-left: 24px; margin-top: -10px">
+      <div>
+        <label style="font-weight: 500; color: #504f54">Expected Salary</label
+        ><br />
+        <mat-form-field
+          appearance="outline"
+          style="
+            width: 303px;
+            color: #dad3fe;
+            margin-top: 5px;
+            margin-left: 0px;
+          "
+        >
+          <mat-select>
+            <mat-option *ngFor="let Salary of Salarys" [value]="Salary">{{
+              Salary
+            }}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+      <div style="margin-left: 339px; margin-top: -101px">
+        <br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="Value" required />
+          </mat-form-field>
+        </p>
+      </div>
+      <div style="margin-top: -113px; margin-left: 697px">
+        <br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 330px; margin-top: 4px"
+          >
+            <input matInput placeholder="Period" required />
+          </mat-form-field>
+        </p>
+      </div>
+    </div>
+  </mat-card>
+</div>
+
+<!--Skill-->
+<div>
+  <mat-card
+    style="width: 1080px; height: 188px; margin-left: 374px; margin-top: 34px"
+  >
+    <mat-icon color="accent" style="margin-left: 14px; margin-bottom: -1px"
+      >engineering</mat-icon
+    >
+    <p id="midname" style="margin-left: 46px">Skills</p>
+    <!--Description-->
+    <div style="margin-left: 19px; margin-top: 34px">
+      <label style="font-weight: 500; color: #504f54">Add Skills</label><br />
+      <input
+        type="text"
+        name="Address"
+        class="inputbox"
+        style="width: 1050px; height: 48px; margin-left: -5px; margin-top: 8px"
+      />
+      <div class="info_textt" style="margin-left: -16pc; margin-top: -35px">
+        <button mat-stroked-button id="ex_btn" style="margin-left: 75px">
+          <p>Example Tag 1 X</p>
+        </button>
+        <button mat-stroked-button id="ex_btn" style="margin-left: -23pc">
+          <p>Example Tag 2 X</p>
+        </button>
+        <button mat-stroked-button id="ex_btn" style="margin-left: -23pc">
+          <p>Example Tag 3 X</p>
+        </button>
+      </div>
+    </div>
+  </mat-card>
+</div>
+
+<!--Certificate-->
+<div>
+  <mat-card
+    style="width: 1080px; height: 575px; margin-left: 374px; margin-top: 34px"
+  >
+    <mat-icon color="accent" style="margin-left: 14px; margin-bottom: -1px"
+      >file_copy</mat-icon
+    >
+    <p id="midname" style="margin-left: 46px">
+      Certificate
+      <button mat-button style="color: #00a46c; margin-left: 756px">
+        + Add Certificate
+      </button>
+    </p>
+    <!--Certificate_deatils-->
+    <div>
+      <p
+        style="
+          font-size: 18px;
+          color: #25364d;
+          margin-top: 32px;
+          margin-left: 14px;
+        "
+      >
+        Enterprise Training on Python Programming
+      </p>
+      <div style="margin-top: -30px; margin-left: 963px">
+        <mat-icon style="font-size: 25px; color: #84818a">edit</mat-icon>
+        <mat-icon style="font-size: 25px; color: #ff715a; margin-left: 29px"
+          >delete</mat-icon
+        >
+      </div>
+      <p
+        style="
+          font-weight: 500;
+          color: #84818a;
+          margin-top: -5px;
+          margin-left: 10px;
+        "
+      >
+        <mat-icon style="font-size: 25px; color: #ffae1f; margin-bottom: -5px"
+          >event</mat-icon
+        >
+        January 2019 to August2019 (4 months)
+      </p>
+      <mat-divider style="margin-top: 26px"></mat-divider>
+      <p
+        style="
+          font-size: 18px;
+          color: #25364d;
+          margin-top: 24px;
+          margin-left: 14px;
+        "
+      >
+        Java Entriprise Edition Pro
+      </p>
+      <div style="margin-top: -30px; margin-left: 963px">
+        <mat-icon style="font-size: 25px; color: #84818a">edit</mat-icon>
+        <mat-icon style="font-size: 25px; color: #ff715a; margin-left: 29px"
+          >delete</mat-icon
+        >
+      </div>
+      <p
+        style="
+          font-weight: 500;
+          color: #84818a;
+          margin-top: -5px;
+          margin-left: 10px;
+        "
+      >
+        <mat-icon style="font-size: 25px; color: #ffae1f; margin-bottom: -5px"
+          >event</mat-icon
+        >
+        January 2019 to August2019 (4 months)
+      </p>
+      <mat-divider style="margin-top: 26px"></mat-divider>
+    </div>
+    <!--Certificate add-->
+    <div>
+      <p id="ed_text">Add Certificate</p>
+      <mat-divider id="ed_line"></mat-divider>
+    </div>
+    <!-- Certificate job title-->
+    <div style="margin-left: 24px; margin-top: 85px">
+      <div style="margin-top: -39px">
+        <label style="font-weight: 500; color: #504f54">Cource Name</label
+        ><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 654px; margin-top: 4px"
+          >
+            <input matInput placeholder="eg UI/UX Designer" required />
+          </mat-form-field>
+        </p>
+      </div>
+      <div style="margin-top: -114px; margin-left: 690px">
+        <label style="font-weight: 500; color: #504f54"
+          >Attach Certificate</label
+        ><br />
+        <p>
+          <mat-form-field
+            floatLabel="auto"
+            appearance="outline"
+            hideRequiredMarker
+            color="black"
+            style="width: 341px; margin-top: 4px"
+          >
+            <input matInput placeholder="Pdf,doc,word" required />
+          </mat-form-field>
+          <img
+            src="../assets/image/Uploadd.png"
+            style="
+              margin-bottom: -16px;
+              margin-left: -56px;
+              width: 55px;
+              height: 49px;
+            "
+          />
+        </p>
+      </div>
+    </div>
+    <!--button-->
+    <div style="margin-top: 38px; margin-left: 832px">
+      <button mat-stroked-button>Cancel</button>
+      <button
+        mat-stroked-button
+        color="accent"
+        style="margin-left: 24px; border: 1px solid blue"
+      >
+        Add Certificate
+      </button>
+    </div>
+  </mat-card>
+</div>
+
+<!--button-->
+<div style="margin-top: 38px; margin-left: 1222px">
+  <button mat-stroked-button>Cancel</button>
+  <button mat-flat-button color="accent" style="margin-left: 24px">
+    Add Candidate
+  </button>
+</div>
+<p style="color: #fff">.</p>
+<mat-form-field appearance="outline">
+  <mat-select>
+    <mat-option *ngFor="let category of categories" [value]="category.value">
+      <img height="20" [src]="category.image" />
+      {{ category.viewValue }}
+    </mat-option>
+  </mat-select>
+</mat-form-field>

@@ -1,0 +1,136 @@
+.leftnav{
+  width: 900px;
+  transform: rotate(90deg);
+  height: 900px;
+  margin-top: -551px;
+  margin-left: -839px;
+}
+.topsearch{
+  color:#B6B4BA;
+  margin-left: 36px;
+}
+.topmail{
+  color:#B6B4BA;
+  margin-left: 23px;
+}
+.topnotifi{
+  color:#B6B4BA;
+  margin-left: 23px;
+}
+.topcircle{
+  color: #FF715A;
+  font-size: 10px;
+}
+.toparrow{
+  color: #25364D;
+  margin-bottom: 24px;
+  margin-left: 310px;
+  margin-top: -50px;
+
+}
+.toptext{
+  color: #25364D;
+  margin-top: -29px;
+  margin-left: 232px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.left-details-box {
+  margin-top: 46px;
+  margin-left: 91px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #25364D;
+  display: flex;
+  flex-direction: column;
+  width: 234px;
+  height: 495px;
+
+}
+.line {
+  width: 224px;
+  height: 1px;
+  background: #ebeaed;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  margin-top: 5px;
+}
+#midname{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: #25364D;
+  margin-top: -32px;
+  margin-left: 29px;
+}
+.inputbox {
+  box-sizing: border-box;
+  width: 225px;
+  height: 48px;
+  background: #fff;
+  border: 1.5px solid #ebeaed;
+  border-radius: 4px;
+  margin-left: 8px;
+}
+.fromemail {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #25364D;
+  margin-top: -35px;
+  margin-left: 6px;
+}
+.iconbox{
+  color: #84818a;
+  font-size: 20px;
+  margin-top: -79px;
+  margin-bottom: 48px;
+  margin-left: 1005px;
+}
+
+.example-margin {
+  margin: 0 12px;
+  color: #84818A;
+  margin-left: 90px;
+}
+#ed_text{
+  font-weight: 600;
+  font-size: 18px;
+  color: #504F54;
+  margin-top: 48px;
+  margin-left: 36px;
+}
+#ed_line{
+  width: 132px;
+  height: 2px;
+  background-color: blue;
+  margin-left: 33px;
+}
+.info_textt{
+  display: flex;
+  font-weight:600;
+  color: #25364D;
+   justify-content: space-around;
+   width: 821px;
+   margin-left: -86px;
+
+}
+#ex_btn{
+  border-radius: 20px;
+  height: 24px;
+  width: 107px;
+  background-color: #FBFAFC;
+}
+#ex_btn p{
+  font-size: 12px;
+  color: #84818a;
+  margin-left: -8px;
+    margin-top: -5px;
+}
+.mat-card{
+  font-family:'Manrope', sans-serif;
+}
+.image-upload>input {
+  display: block;
+}
